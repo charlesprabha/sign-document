@@ -21,7 +21,7 @@ import java.nio.file.Path;
 
 @RestController
 @RequestMapping("/api/documents")
-@CrossOrigin(origins = {"http://localhost:5173", "http://10.229.14.24:5173"})
+@CrossOrigin(origins = "*")
 public class DocumentController {
 
     private final DocumentService documentService;
