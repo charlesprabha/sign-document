@@ -21,7 +21,7 @@ import java.nio.file.Path;
 
 @RestController
 @RequestMapping("/api/documents")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://sign-document-frontend.onrender.com")
 public class DocumentController {
 
     private final DocumentService documentService;
